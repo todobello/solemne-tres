@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1iZHF2aocIHF2acU7hYf1uIJAxQaQAf-A
 """
 
-import requests
-import json
-import pandas as pd
-import matplotlib.pyplot as plt
-
 # Función para obtener datos de la API REST Countries
 def obtener_datos_api():
     url = "https://restcountries.com/v3.1/all"
