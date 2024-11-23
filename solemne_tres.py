@@ -11,7 +11,6 @@ import requests
 import json
 import pandas as pd
 import matplotlib.pyplot as plt
-import streamlit as st
 
 # Función para obtener datos de la API REST Countries
 def obtener_datos_api():
